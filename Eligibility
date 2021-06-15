@@ -1,0 +1,20 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age;
+    int agelimit=18;
+    cout<<"Age please->";
+    cin>>age;
+    if(age<=agelimit)
+    {
+        cout<<"Sorry! You are not eligible.";
+    }
+    else
+    {
+        cout<<"Yes You are eligible. please sign in";
+       
+    }
+    
+}
